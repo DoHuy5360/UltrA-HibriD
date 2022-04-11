@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="img/myLogo.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/f5996366bb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>UltrA HibriD</title>
+  </head>
+  <body>
+    <svg class="top-background">
+      <defs>
+        <linearGradient
+          id="bg-background-gradient"
+          gradientTransform="rotate(75)"
+        >
+          <stop
+            offset="0%"
+            stop-color="var(--head-color)"
+            style="transition: stop-color 0.6s ease"
+          ></stop>
+          <stop offset="100%" stop-color="transparent"></stop>
+        </linearGradient>
+      </defs>
+      <rect
+        fill="url('#bg-background-gradient')"
+        width="100%"
+        height="100%"
+        class="StyleProvider__StyledGradientRect-sc-1wukuln-1 eMHeuz"
+      ></rect>
+    </svg>
+    <!-- nav -->
+    <div class="sticky-nav">
+      <div class="nav-center">
+        <div class="logo-discord">
+          <i class="fab fa-discord"></i>
+          <p>Discord</p>
+        </div>
+        <div class="nav-right">
+          <p class="disable" title="Bạn chưa đủ quyền hạn">Author</p>
+          <p class="disable" title="Bạn chưa đủ quyền hạn">Add to server</p>
+        </div>
+      </div>
+    </div>
+    <!-- end nav -->
+    <div class="wrap-all">
+      <div class="wrap-main-content">
+        <!-- search -->
+        <div class="wrap-search-bar">
+          <input type="text" class="search-bar" spellcheck="false" />
+          <div class="search-icon disable" title="Bạn chưa đủ quyền hạn">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        <!-- end search -->
+        <!-- avatar -->
+        <div class="wrap-avatar-bar">
+          <div class="avatar-and-name">
+            <div class="fixed-avatar">
+              <div class="wrap-avatar"></div>
+              <div class="wrap-avatar-2"></div>
+              <img src="img/bot.jpg" alt="" class="avatar" draggable="false" />
+            </div>
+            <div class="wrap-name-star">
+              <div class="bot-name">UltrA HibriD</div>
+              <div class="star-bar">
+                <i style="--c: 40px" class="fas fa-crown"></i>
+                <i style="--c: 35px" class="fas fa-crown"></i>
+                <i style="--c: 30px" class="fas fa-crown"></i>
+                <i style="--c: 25px" class="fas fa-crown"></i>
+                <i style="--c: 20px" class="fas fa-crown"></i>
+                <i style="--c: 15px" class="fas fa-crown"></i>
+              </div>
+            </div>
+          </div>
+          <div class="wrap-invite-vote">
+            <div class="box-invite disable" title="Bạn chưa đủ quyền hạn">
+              Invite
+            </div>
+            <div class="box-vote disable" title="Bạn chưa đủ quyền hạn">
+              Vote
+            </div>
+          </div>
+        </div>
+        <!-- end avatar -->
+        <!-- info -->
+        <div class="wrap-all-infor">
+          <div class="option-view-bar">
+            <div class="box-overview">Overview</div>
+          </div>
+          <div class="the-view">
+            <div class="left-commands">
+              <h1>Welcom to spaceship !</h1>
+              <h5>I'm a bot Discord can do weird thing like this !</h5>
+              <table
+                class="box-table"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+              >
+                <tr>
+                  <th>Command</th>
+                  <th>Explain</th>
+                  <th>Example</th>
+                </tr>
+                <tr>
+                  <th>ping</th>
+                  <th>Checking bot online</th>
+                  <th>ping</th>
+                </tr>
+                <tr>
+                  <th>HF</th>
+                  <th>Hosting simple file to the internet</th>
+                  <th>HF</th>
+                </tr>
+                <tr>
+                  <th>HL</th>
+                  <th>Show list file and link already exist</th>
+                  <th>HL 8888</th>
+                </tr>
+              </table>
+            </div>
+            <div class="right-details">
+              <h1>Details</h1>
+              <div class="shell-detail">Prefix: Not using</div>
+              <h1>Category</h1>
+              <div class="shell-detail" id="wrap-categories">
+                <span>Code</span>
+                <span>API</span>
+                <span>Hosting</span>
+                <span>Frontend</span>
+              </div>
+              <h1>Creators</h1>
+              <div class="shell-detail" id="creators-box">
+                <img
+                  src="img/creator.png"
+                  class="creator-avatar"
+                  draggable="false"
+                />
+                <span>Huy rất căng !</span>
+              </div>
+              <h1>Socials</h1>
+              <div class="shell-detail" id="wrap-link-socials">
+                <a href="https://discord.gg/2qRPhqJG9v"
+                  ><div>Hang động hất cùn !</div></a
+                >
+                <a href="https://discord.gg/2qRPhqJG9v"
+                  ><div>Trung tâm dải ngân hà.</div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end info -->
+        <!-- rating -->
+        <div class="wrap-rating">
+          <h1>Ratings & Reviews</h1>
+          <div class="wrap-rating-bar">
+            <div class="wrap-number-star">
+              <div class="wrap-rating-top">
+                <div class="number-stars">9</div>
+                <div class="wrap-star-reviews">
+                  <div class="start-reviews"></div>
+                  <span id="total-reviews">-----</span><span> reviews</span>
+                </div>
+              </div>
+              <div class="description-rating">
+                Huy đã tạo ra hàng chục bot Discord với hàng tá tính năng ảo
+                diệu, điên khùng và bá đạo. UltrA HibriD là một trong số đó đi
+                kèm với sự ưu ái là một trang profile riêng. Dù chả có ai vote
+                nhưng cũng đủ để biết Huy căng cỡ nào!
+              </div>
+            </div>
+            <div class="lines-index">
+              <div class="wrap-line-star">
+                <span>10 star</span>
+                <div class="wrap-line-bar">
+                  <div class="line-star" id="10-star"></div>
+                </div>
+                <span class="amount-rating" id="10">3213</span>
+              </div>
+              <div class="wrap-line-star">
+                <span>9 star</span>
+                <div class="wrap-line-bar">
+                  <div class="line-star" id="9-star"></div>
+                </div>
+                <span class="amount-rating" id="9">3340</span>
+              </div>
+              <div class="wrap-line-star">
+                <span>8 star</span>
+                <div class="wrap-line-bar">
+                  <div class="line-star" id="8-star"></div>
+                </div>
+                <span class="amount-rating" id="8">5903</span>
+              </div>
+              <div class="wrap-line-star">
+                <span>7 star</span>
+                <div class="wrap-line-bar">
+                  <div class="line-star" id="7-star"></div>
+                </div>
+                <span class="amount-rating" id="7">4320</span>
+              </div>
+              <div class="wrap-line-star">
+                <span>6 star</span>
+                <div class="wrap-line-bar">
+                  <div class="line-star" id="6-star"></div>
+                </div>
+                <span class="amount-rating" id="6">2340</span>
+              </div>
+              <div class="wrap-line-star">
+                <span>5 star</span>
+                <div class="wrap-line-bar">
+                  <div class="line-star" id="5-star"></div>
+                </div>
+                <span class="amount-rating" id="5">9230</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end rating -->
+        <!-- footer -->
+        <div class="wrap-footer">
+          <div class="wrap-boss">
+            <img src="img/boss.png" alt="" class="box-boss" draggable="false" />
+            <h6>Luôn làm bạn khó thở !</h6>
+          </div>
+          <div class="redirect-box" title="Bạn chưa đủ quyền hạn">
+            <ul class="list-shell-footer disable">
+              <li>Source</li>
+              <li>Github</li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul class="list-shell-footer disable">
+              <li>Others</li>
+              <li>Licese</li>
+              <li>Security</li>
+              <li>policy and privacy</li>
+            </ul>
+            <ul class="list-shell-footer disable">
+              <li>Contact</li>
+              <li>Email</li>
+              <li>Phone</li>
+              <li>Facebook</li>
+            </ul>
+          </div>
+        </div>
+        <!-- end footer -->
+      </div>
+    </div>
+    <!-- message -->
+    <div class="box-message">
+      <img src="img/raptorLoading.svg" alt="" class="raptor-loading" />
+      <div class="message-text">
+        <h2>Một chiếc điện thoại 1920x1080 ?</h2>
+        <div class="wrap-device">
+          <i class="fas fa-mobile-alt"></i>
+          <i class="fas fa-arrow-right"></i>
+          <i class="fas fa-desktop"></i>
+        </div>
+      </div>
+    </div>
+    <!-- end message -->
+  </body>
+</html>
+<script src="js/scripts.js"></script>
